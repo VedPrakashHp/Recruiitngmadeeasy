@@ -42,7 +42,7 @@ function FindResumeScore() {
       </div>
       <input type="file" accept=".pdf,.doc,.docx" onChange={handleFileChange} />
       <br /><br />
-      <button onClick={handleSubmit} disabled={loading || !resumeFile}>Submit</button>\
+      <button onClick={handleSubmit} disabled={loading || !resumeFile}>Submit</button>
 
       {loading && <p>Loading...</p>}
       {result && <pre>{JSON.stringify(result, null, 2)}</pre>}
