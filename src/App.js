@@ -2,6 +2,7 @@ import TeamsTab from "./components/TeamsTab";
 import FindResumeScore from "./pages/FindResumeScore";
 import FindInterviewers from "./pages/FindInterviewers";
 import ScheduleInterviews from "./pages/ScheduleInterviews";
+import PreviousResults from "./pages/PreviousResults";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
   <Route path="/find-resume-score" element={<FindResumeScore />} />
   <Route path="/find-interviewers" element={<FindInterviewers />} />
   <Route path="/schedule-interviews" element={<ScheduleInterviews />} />
+  <Route path="/previous-results" element={<PreviousResults />} />
     </Routes>
   );
 }
